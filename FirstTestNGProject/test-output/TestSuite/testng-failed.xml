@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="methods" name="Failed suite [TestSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="2" parallel="methods" name="testGuru(failed)">
+    <classes>
+      <class name="firsttestngpackage.FirstTestNGFile10">
+        <methods>
+          <include name="executSessionOne"/>
+          <include name="executeSessionTwo"/>
+        </methods>
+      </class> <!-- firsttestngpackage.FirstTestNGFile10 -->
+    </classes>
+  </test> <!-- testGuru(failed) -->
+</suite> <!-- Failed suite [TestSuite] -->
