@@ -23,7 +23,7 @@ public  class  CreateDirectoryExample {
     
 
         Path path = Paths.get(BatchFolder);
-        //if directory exists?
+        ///if directory exists?
         if (!Files.exists(path)) {
             try {
             	
